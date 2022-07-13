@@ -1,25 +1,10 @@
 @charset "utf-8";
 
-
-
-/* =============================
-    MOBILE STYLES 0px to 700px 
-   ============================= */
-
-@media only screen and (max-width:700px) {
-   
-}
-
-/* ==============================================
-    TABLET AND DESKTOP STYLES GREATER THAN 700px
-   ============================================== */
-
-@media only screen and (min-width:701px) {
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    font-size: 24px;
     width: 100%;
     text-align: center;
     margin: 15% 0;
@@ -35,4 +20,28 @@ div .name-div {
     width: 100px;
 }
 
+/* =============================
+    MOBILE STYLES 0px to 700px 
+   ============================= */
+
+@media only screen and (max-width:700px) {
+   .box {
+    margin-top: 22%;
+    flex-direction: column;
+   }
+}
+
+/* ==============================================
+    TABLET AND DESKTOP STYLES GREATER THAN 700px
+   ============================================== */
+
+@media only screen and (min-width:701px) {
+    
+    .box {
+        flex-direction: row;
+    }
+
+    .name-div {
+        margin-right: 1.725%;
+    }
 }
