@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+
+/* =============================
+    MOBILE STYLES 0px to 700px 
+   ============================= */
+
+@media only screen and (max-width:700px) {
+   
+}
+
+/* ==============================================
+    TABLET AND DESKTOP STYLES GREATER THAN 700px
+   ============================================== */
+
+@media only screen and (min-width:701px) {
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    margin: 15% 0;
+    min-height: 200px;
+}
+
+.box div {
+    width: 100px;
+    height: 100px;
+}
+
+div .name-div {
+    width: 100px;
+}
+
+}

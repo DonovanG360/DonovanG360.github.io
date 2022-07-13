@@ -10,8 +10,6 @@
 }
 
 html {
-    height: 100%;
-    width: 100%;
     font-size: 20px;
     background: whitesmoke;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,6 +18,11 @@ html {
 body {
     margin: 0;
     font-weight: 300;
+}
+
+html, body {
+    min-height: 100%;
+    width: 100%;
 }
 
 header{
@@ -79,7 +82,7 @@ nav ul li {
 }
 
 /* =============================
-    MOBILE STYLES 0px to 640px 
+    MOBILE STYLES 0px to 700px 
    ============================= */
 
 @media only screen and (max-width:700px) {
@@ -119,7 +122,7 @@ nav ul li {
 }
 
 /* ==============================================
-    TABLET AND DESKTOP STYLES GREATER THAN 640px
+    TABLET AND DESKTOP STYLES GREATER THAN 700px
    ============================================== */
 
 @media only screen and (min-width:701px) {
