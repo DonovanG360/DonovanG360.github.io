@@ -1,27 +1,91 @@
 @charset "utf-8";
 
+/* =========================
+    STYLES FOR ALL DISPLAYS
+   ========================= */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    background: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-weight: 300;
+}
+
+header{
+    background: lightgrey;
+}
+
+/* =============================
+    MOBILE STYLES 0px to 640px 
+   ============================= */
+
+@media only screen and (max-width:640px) {
+
+}
+
+/* ==============================================
+    TABLET AND DESKTOP STYLES GREATER THAN 640px
+   ============================================== */
+
+@media only screen and (min-width:640px) {
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* NAV MENU STYLES */
+.navContainer{
+    width: 80%;
+    margin: 0 auto;
+}
+
 nav {
-    width: 750px;
-    margin-left: auto;
-    margin-right: auto;
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
     list-style: none;
-    text-align: center;
-    background-color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    position: relative;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* adds an on hover transition to white*/ 
+nav a:hover {
+    transition: 1s;
+    color: white;
 }
 
 nav ul li {
-    display: table-cell;
-    width: 15%;
-    text-align: center;
-    margin-right: 2%;
-    border: thin solid gray;
-    border-collapse: collapse;
-    font-size: 25px;
+    margin-top: 20px;
+    height: 45px; /* This actually changes the height of the nav bar grey space */
 }
 
-nav ul li a {
-    color: black;
-    text-decoration: none;
-    display: block;
-    margin-bottom: 0;
+
+
 }
