@@ -81,6 +81,10 @@ nav a:hover {
 nav ul li {
     margin-top: 20px;
 }
+footer {
+    text-align: center;
+    
+}
 
 /* =============================
     MOBILE STYLES 0px to 700px 
