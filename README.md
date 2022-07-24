@@ -14,4 +14,5 @@ Tasks:
         Part Include Github
         Part: Include LinkedIn
         Part Include City and State
+    TASK: Fix hamburger scrolling issue
     
